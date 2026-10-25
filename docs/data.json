@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T22:01:20.360293+11:00",
+ "generated": "2026-10-25T22:04:43.388187+11:00",
  "window": {
   "from": "2026-10-25T00:00:00+11:00",
   "to": "2026-11-01T23:59:59+11:00"
@@ -53,13 +53,13 @@
   },
   {
    "id": "mn-hurstville",
-   "label": "Movement Nation Hurstville",
+   "label": "Movement Nation Hursi",
    "address": "38 Humphreys Ln, Hurstville",
    "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
   },
   {
    "id": "mn-parramatta",
-   "label": "Movement Nation Parramatta",
+   "label": "Movement Nation Parra",
    "address": "110 Church St, Parramatta",
    "book": "https://2020movementnation.wixsite.com/website-1"
   },
@@ -74,29 +74,29 @@
   "imi": {
    "ok": true,
    "count": 16,
-   "updated": "2026-10-25T22:01:20.360293+11:00",
+   "updated": "2026-10-25T22:04:43.388187+11:00",
    "classpass": "failed: HTTP Error 403: Forbidden"
   },
   "crossover": {
    "ok": true,
    "count": 73,
-   "updated": "2026-10-25T22:01:20.360293+11:00",
+   "updated": "2026-10-25T22:04:43.388187+11:00",
    "classpass": "failed: HTTP Error 403: Forbidden"
   },
   "mn-hurstville": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T22:01:20.360293+11:00"
+   "updated": "2026-10-25T22:04:43.388187+11:00"
   },
   "mn-parramatta": {
    "ok": true,
    "count": 11,
-   "updated": "2026-10-25T22:01:20.360293+11:00"
+   "updated": "2026-10-25T22:04:43.388187+11:00"
   },
   "ix": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T22:01:20.360293+11:00"
+   "updated": "2026-10-25T22:04:43.388187+11:00"
   }
  },
  "classes": [
@@ -198,7 +198,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Kpop",
    "level": "unlabelled",
    "teacher": "Sam",
@@ -209,7 +209,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Hip Hop (Beg)",
    "level": "beginner",
    "teacher": "Hu Jeffery",
@@ -220,7 +220,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreography (Int)",
    "level": "intermediate",
    "teacher": "Tommy",
@@ -290,7 +290,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreography (Beg)",
    "level": "beginner",
    "teacher": "Pacient",
@@ -396,7 +396,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Choreography (Beg)",
    "level": "beginner",
    "teacher": "Ona",
@@ -407,7 +407,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Absolute Beginners",
    "level": "abs_beg",
    "teacher": "Chantelle",
@@ -429,7 +429,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Choreography (Beg)",
    "level": "beginner",
    "teacher": "Aleira",
@@ -440,7 +440,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Hip Hop (Beg)",
    "level": "beginner",
    "teacher": "Jeff",
@@ -535,7 +535,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Choreography (Int)",
    "level": "intermediate",
    "teacher": "Christian",
@@ -630,7 +630,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreography (Beg)",
    "level": "beginner",
    "teacher": "Merry",
@@ -675,7 +675,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Absolute Beginners",
    "level": "abs_beg",
    "teacher": "Tracey",
@@ -686,7 +686,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Waving Pop up class",
    "level": "unlabelled",
    "teacher": "Daniel",
@@ -697,7 +697,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreo (Beg)",
    "level": "beginner",
    "teacher": "Rishika",
@@ -874,7 +874,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Absolute Beginners",
    "level": "abs_beg",
    "teacher": "Sam",
@@ -908,7 +908,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Hip Hop (Beg)",
    "level": "beginner",
    "teacher": "Yudai",
@@ -919,7 +919,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreography (Beg)",
    "level": "beginner",
    "teacher": "Ivy",
@@ -966,7 +966,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Choreography (Beg)",
    "level": "beginner",
    "teacher": "Taymane",
@@ -977,7 +977,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreography (Int)",
    "level": "intermediate",
    "teacher": "Oliver",
@@ -1096,7 +1096,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreo (Beg)",
    "level": "beginner",
    "teacher": "Tianna",
@@ -1107,7 +1107,7 @@
   },
   {
    "studio": "mn-hurstville",
-   "where": "Movement Nation Hurstville",
+   "where": "Movement Nation Hursi",
    "name": "Absolute Beginners",
    "level": "abs_beg",
    "teacher": "Chantelle",
@@ -1118,7 +1118,7 @@
   },
   {
    "studio": "mn-parramatta",
-   "where": "Movement Nation Parramatta",
+   "where": "Movement Nation Parra",
    "name": "Choreography (Open)",
    "level": "open",
    "teacher": "Tiana",
