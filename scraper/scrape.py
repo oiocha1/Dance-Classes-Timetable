@@ -193,7 +193,7 @@ def main():
         except Exception:
             previous = {}
 
-    classes, status = [], {}
+    classes, status, cp_notes = [], {}, {}
     for studio in STUDIOS:
         try:
             fn = scrape_mindbody if studio["kind"] == "mindbody" else scrape_wix
@@ -203,12 +203,16 @@ def main():
                 try:
                     n = link_classpass(studio, got, start, DAYS_AHEAD + 1)
                     print(f"{studio['label']}: {n}/{len(got)} classes linked to ClassPass")
+                    cp_notes[studio["id"]] = f"{n}/{len(got)} linked"
                 except Exception as exc:  # ClassPass down: classes still link to the ClassPass studio page
                     for c in got:
                         c["via"] = "classpass-studio"
                     print(f"{studio['label']}: ClassPass lookup failed ({exc})", file=sys.stderr)
+                    cp_notes[studio["id"]] = f"failed: {str(exc)[:200]}"
             classes += got
             status[studio["id"]] = {"ok": True, "count": len(got), "updated": now.isoformat()}
+            if studio["id"] in cp_notes:
+                status[studio["id"]]["classpass"] = cp_notes[studio["id"]]
             print(f"{studio['label']}: {len(got)} classes")
         except Exception as exc:  # keep last good data for a studio that failed
             old = [c for c in previous.get("classes", []) if c["studio"] == studio["id"]]
