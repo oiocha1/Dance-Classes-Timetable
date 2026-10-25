@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T20:47:56.168618+11:00",
+ "generated": "2026-10-25T20:57:31.089784+11:00",
  "window": {
   "from": "2026-10-25T00:00:00+11:00",
   "to": "2026-11-01T23:59:59+11:00"
@@ -74,27 +74,27 @@
   "imi": {
    "ok": true,
    "count": 16,
-   "updated": "2026-10-25T20:47:56.168618+11:00"
+   "updated": "2026-10-25T20:57:31.089784+11:00"
   },
   "crossover": {
    "ok": true,
-   "count": 74,
-   "updated": "2026-10-25T20:47:56.168618+11:00"
+   "count": 73,
+   "updated": "2026-10-25T20:57:31.089784+11:00"
   },
   "mn-hurstville": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T20:47:56.168618+11:00"
+   "updated": "2026-10-25T20:57:31.089784+11:00"
   },
   "mn-parramatta": {
    "ok": true,
    "count": 11,
-   "updated": "2026-10-25T20:47:56.168618+11:00"
+   "updated": "2026-10-25T20:57:31.089784+11:00"
   },
   "ix": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T20:47:56.168618+11:00"
+   "updated": "2026-10-25T20:57:31.089784+11:00"
   }
  },
  "classes": [
@@ -895,7 +895,7 @@
    "where": "Crossover",
    "name": "Locking (Beg)",
    "level": "beginner",
-   "teacher": "Keanu",
+   "teacher": "Nina",
    "start": "2026-10-29T19:05:00+11:00",
    "end": "2026-10-29T20:05:00+11:00",
    "raw": "Locking (Beginners)",
@@ -954,17 +954,6 @@
    "start": "2026-10-29T20:15:00+11:00",
    "end": "2026-10-29T21:15:00+11:00",
    "raw": "Hip Hop Freestyle (Beg-Int)",
-   "book": "https://www.crossoverdance.com/timetable/"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Popping/Boogaloo (Int)",
-   "level": "intermediate",
-   "teacher": "Keanu",
-   "start": "2026-10-29T20:15:00+11:00",
-   "end": "2026-10-29T21:30:00+11:00",
-   "raw": "Popping/Boogaloo (Intermediate)",
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
@@ -1346,7 +1335,7 @@
    "where": "Crossover",
    "name": "Popping (Beg)",
    "level": "beginner",
-   "teacher": "Keanu",
+   "teacher": "Tripti",
    "start": "2026-11-01T13:00:00+11:00",
    "end": "2026-11-01T14:00:00+11:00",
    "raw": "Popping (Beginners)",
