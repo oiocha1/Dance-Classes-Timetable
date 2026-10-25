@@ -61,6 +61,7 @@ main { padding: 4px 16px calc(env(safe-area-inset-bottom) + 40px); max-width: 64
 .meta { color: var(--muted); font-size: 13px; margin-top: 3px; }
 .st { font-weight: 600; color: var(--ink); }
 .nw { white-space: nowrap; }
+.tch { font-weight: 600; }
 .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin: 0 6px 1px 1px; vertical-align: middle; }
 .dot-imi { background: #0b0b0b; box-shadow: 0 0 0 1.5px #ffffff; }
 .dot-crossover { background: #C8102E; }
@@ -221,7 +222,7 @@ function render() {
       <div class="time">${fmtTime(s)}${e ? `<small>to ${fmtTime(e)}</small>` : ""}</div>
       <div>
         <div class="name">${esc(c.name)}</div>
-        <div class="meta"><span class="dot dot-${esc(c.studio)}"></span><span class="st">${esc(c.where)}</span>${c.teacher ? ` · <span class="nw">with ${esc(c.teacher)}</span>` : ""}</div>
+        <div class="meta"><span class="dot dot-${esc(c.studio)}"></span><span class="st">${esc(c.where)}</span>${c.teacher ? ` · <span class="nw">with <b class="tch">${esc(c.teacher)}</b></span>` : ""}</div>
         <span class="badge ${esc(c.level)}">${esc(lvl)}</span>${c.via === "classpass" ? `<span class="via">ClassPass ↗</span>` : c.via === "classpass-studio" ? `<span class="via">ClassPass studio ↗</span>` : ""}
       </div></a>`;
   }
