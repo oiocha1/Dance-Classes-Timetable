@@ -18,7 +18,6 @@
   --accent: #5B7A2E; --chip: #ECEBE1; --chip-on: #4A5A30; --chip-on-ink: #F6F5EE;
   --absbeg: #465A24; --absbeg-bg: #DCE7C5; --found: #55468A; --found-bg: #E7E1F2;
   --other: #5E6352; --other-bg: #ECEBE1; --warn: #8A5A0B; --warn-bg: #F6EAC9;
-  --s-imi: #2F6690; --s-xo: #B4532A; --s-mnh: #A23E66; --s-mnp: #1F7A70; --s-ix: #8A6512;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -26,7 +25,6 @@
     --accent: #C9DAA8; --chip: #383E31; --chip-on: #C9DAA8; --chip-on-ink: #252920;
     --absbeg: #CFE2A8; --absbeg-bg: #3C4C2C; --found: #D4CBF4; --found-bg: #3A3350;
     --other: #C9CDBD; --other-bg: #383E31; --warn: #EBD48D; --warn-bg: #4A4128;
-    --s-imi: #9CC3E6; --s-xo: #F0A584; --s-mnh: #EBA3C0; --s-mnp: #8FD3C8; --s-ix: #E3C277;
   }
 }
 * { box-sizing: border-box; }
@@ -61,10 +59,14 @@ main { padding: 4px 16px calc(env(safe-area-inset-bottom) + 40px); max-width: 64
 .time small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
 .name { font-weight: 600; }
 .meta { color: var(--muted); font-size: 13px; margin-top: 3px; }
-.st { font-weight: 600; }
+.st { font-weight: 600; color: var(--ink); }
 .nw { white-space: nowrap; }
-.st-imi { color: var(--s-imi); } .st-crossover { color: var(--s-xo); } .st-ix { color: var(--s-ix); }
-.st-mn-hurstville { color: var(--s-mnh); } .st-mn-parramatta { color: var(--s-mnp); }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin: 0 6px 1px 1px; vertical-align: middle; }
+.dot-imi { background: #0b0b0b; box-shadow: 0 0 0 1.5px #ffffff; }
+.dot-crossover { background: #C8102E; }
+.dot-mn-hurstville { background: #E2333A; box-shadow: 0 0 0 1.5px #0b0b0b; }
+.dot-mn-parramatta { background: #2457C5; box-shadow: 0 0 0 1.5px #0b0b0b; }
+.dot-ix { background: #8E5CF0; }
 .badge { display: inline-block; font-size: 11px; font-weight: 650; padding: 2px 8px; border-radius: 999px;
   margin-top: 6px; background: var(--other-bg); color: var(--other); }
 .badge.abs_beg { background: var(--absbeg-bg); color: var(--absbeg); }
@@ -219,7 +221,7 @@ function render() {
       <div class="time">${fmtTime(s)}${e ? `<small>to ${fmtTime(e)}</small>` : ""}</div>
       <div>
         <div class="name">${esc(c.name)}</div>
-        <div class="meta"><span class="st st-${esc(c.studio)}">${esc(c.where)}</span>${c.teacher ? ` · <span class="nw">with ${esc(c.teacher)}</span>` : ""}</div>
+        <div class="meta"><span class="dot dot-${esc(c.studio)}"></span><span class="st">${esc(c.where)}</span>${c.teacher ? ` · <span class="nw">with ${esc(c.teacher)}</span>` : ""}</div>
         <span class="badge ${esc(c.level)}">${esc(lvl)}</span>${c.via === "classpass" ? `<span class="via">ClassPass ↗</span>` : c.via === "classpass-studio" ? `<span class="via">ClassPass studio ↗</span>` : ""}
       </div></a>`;
   }
