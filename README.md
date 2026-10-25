@@ -1,6 +1,7 @@
 # Dance Classes Timetable
 
-A weekly scrape of dance class timetables, shown on a phone-friendly dashboard. It defaults to **Absolute Beginner** classes, plus IMI's **Foundations** classes.
+A weekly scrape of dance class timetables from a select few dance studios in Sydney, shown on a phone-friendly dashboard. 
+For personal use purposes, it defaults to **Absolute Beginner** classes, plus IMI's **Foundations** classes.
 
 | Studio | Source |
 |---|---|
