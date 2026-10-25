@@ -1,12 +1,15 @@
 # Dance Classes Timetable
 
+https://oiocha1.github.io/Dance-Classes-Timetable/
+
 A weekly scrape of dance class timetables from a select few dance studios in Sydney, shown on a phone-friendly dashboard. 
+
 For personal use purposes, it defaults to **Absolute Beginner** classes, plus IMI's **Foundations** classes.
 
 | Studio | Source |
 |---|---|
-| IMI (Lidcombe) | Mindbody |
-| Crossover (Sydney CBD + XO2S) | Mindbody |
+| IMI (Lidcombe) | ClassPass |
+| Crossover (Sydney CBD + XO2S) | ClassPass |
 | Movement Nation Hurstville | Wix Bookings |
 | Movement Nation Parramatta | Wix Bookings |
 | IX (Burwood) | Wix Bookings |
