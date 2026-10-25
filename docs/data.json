@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T20:20:00+11:00",
+ "generated": "2026-10-25T20:39:38.778365+11:00",
  "window": {
   "from": "2026-10-25T00:00:00+11:00",
   "to": "2026-11-01T23:59:59+11:00"
@@ -73,31 +73,42 @@
  "status": {
   "imi": {
    "ok": true,
-   "count": 8,
-   "updated": "2026-10-25T20:20:00+11:00"
+   "count": 16,
+   "updated": "2026-10-25T20:39:38.778365+11:00"
   },
   "crossover": {
    "ok": true,
-   "count": 37,
-   "updated": "2026-10-25T20:20:00+11:00"
+   "count": 74,
+   "updated": "2026-10-25T20:39:38.778365+11:00"
   },
   "mn-hurstville": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T20:20:00+11:00"
+   "updated": "2026-10-25T20:39:38.778365+11:00"
   },
   "mn-parramatta": {
    "ok": true,
-   "count": 8,
-   "updated": "2026-10-25T20:20:00+11:00"
+   "count": 11,
+   "updated": "2026-10-25T20:39:38.778365+11:00"
   },
   "ix": {
    "ok": true,
-   "count": 8,
-   "updated": "2026-10-25T20:20:00+11:00"
+   "count": 10,
+   "updated": "2026-10-25T20:39:38.778365+11:00"
   }
  },
  "classes": [
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Sojeong",
+   "start": "2026-10-25T17:00:00+11:00",
+   "end": "2026-10-25T18:00:00+11:00",
+   "raw": "Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
   {
    "studio": "crossover",
    "where": "Crossover",
@@ -204,7 +215,7 @@
    "level": "intermediate",
    "teacher": "Tommy",
    "start": "2026-10-26T18:00:00+11:00",
-   "end": "2026-10-26T19:00:00+11:00",
+   "end": "2026-10-26T19:15:00+11:00",
    "raw": "Intermediate Choreography W Tommy",
    "book": "https://2020movementnation.wixsite.com/website-1"
   },
@@ -215,7 +226,7 @@
    "level": "beginner",
    "teacher": "Eunju",
    "start": "2026-10-26T18:20:00+11:00",
-   "end": "2026-10-26T19:40:00+11:00",
+   "end": "2026-10-26T19:35:00+11:00",
    "raw": "Heels | Beginners",
    "book": "https://www.ixdancestudio.com"
   },
@@ -226,7 +237,7 @@
    "level": "intermediate",
    "teacher": "Chizuru",
    "start": "2026-10-26T19:00:00+11:00",
-   "end": "2026-10-26T20:00:00+11:00",
+   "end": "2026-10-26T20:15:00+11:00",
    "raw": "Hip Hop (Intermediate)",
    "book": "https://www.crossoverdance.com/timetable/"
   },
@@ -281,7 +292,7 @@
    "level": "beginner",
    "teacher": "Winnie",
    "start": "2026-10-26T20:00:00+11:00",
-   "end": "2026-10-26T21:20:00+11:00",
+   "end": "2026-10-26T21:15:00+11:00",
    "raw": "Hip Hop | Beginners",
    "book": "https://www.ixdancestudio.com"
   },
@@ -352,6 +363,17 @@
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
+   "studio": "imi",
+   "where": "IMI · Studio B",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Merry",
+   "start": "2026-10-27T18:00:00+11:00",
+   "end": "2026-10-27T19:15:00+11:00",
+   "raw": "Beg/Int Choreography | Studio B",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
+  },
+  {
    "studio": "mn-hurstville",
    "where": "MN Hurstville",
    "name": "Choreography (Beg)",
@@ -380,7 +402,7 @@
    "level": "unlabelled",
    "teacher": "Joon",
    "start": "2026-10-27T18:20:00+11:00",
-   "end": "2026-10-27T19:40:00+11:00",
+   "end": "2026-10-27T19:35:00+11:00",
    "raw": "K-pop",
    "book": "https://www.ixdancestudio.com"
   },
@@ -420,6 +442,17 @@
   {
    "studio": "crossover",
    "where": "Crossover",
+   "name": "Choreo (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Sojeong",
+   "start": "2026-10-27T19:05:00+11:00",
+   "end": "2026-10-27T20:05:00+11:00",
+   "raw": "Choreo (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
    "name": "Hip Hop Drills (Beg)",
    "level": "beginner",
    "teacher": "Koki",
@@ -438,6 +471,28 @@
    "end": "2026-10-27T20:05:00+11:00",
    "raw": "Class@XO2S | Choreo (Intermediate)",
    "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Choreo Foundations (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Nao",
+   "start": "2026-10-27T19:05:00+11:00",
+   "end": "2026-10-27T20:05:00+11:00",
+   "raw": "Class@XO2S | Choreo Foundations (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio A",
+   "name": "Collab Choreography (Int/Adv)",
+   "level": "int_adv",
+   "teacher": "Angie x Angie",
+   "start": "2026-10-27T19:15:00+11:00",
+   "end": "2026-10-27T20:30:00+11:00",
+   "raw": "Pop Up | Int/Adv Collab Choreography | Studio A",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
   },
   {
    "studio": "imi",
@@ -517,6 +572,28 @@
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Hip Hop Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Pao Pao",
+   "start": "2026-10-28T18:00:00+11:00",
+   "end": "2026-10-28T19:00:00+11:00",
+   "raw": "Class@XO2S | Hip Hop Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "House (Beg)",
+   "level": "beginner",
+   "teacher": "Substitute",
+   "start": "2026-10-28T18:00:00+11:00",
+   "end": "2026-10-28T19:00:00+11:00",
+   "raw": "Class@XO2S | House (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
    "studio": "mn-parramatta",
    "where": "MN Parramatta",
    "name": "Choreography (Beg)",
@@ -534,9 +611,31 @@
    "level": "beginner",
    "teacher": "Tango",
    "start": "2026-10-28T18:20:00+11:00",
-   "end": "2026-10-28T19:40:00+11:00",
+   "end": "2026-10-28T19:35:00+11:00",
    "raw": "Breaking | Beginners",
    "book": "https://www.ixdancestudio.com"
+  },
+  {
+   "studio": "ix",
+   "where": "IX",
+   "name": "K-pop",
+   "level": "unlabelled",
+   "teacher": "Jenny",
+   "start": "2026-10-28T18:20:00+11:00",
+   "end": "2026-10-28T19:35:00+11:00",
+   "raw": "K-pop",
+   "book": "https://www.ixdancestudio.com"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio B",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Han B",
+   "start": "2026-10-28T19:00:00+11:00",
+   "end": "2026-10-28T20:15:00+11:00",
+   "raw": "Beg/Int Choreography | Studio B",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
   },
   {
    "studio": "mn-hurstville",
@@ -556,9 +655,42 @@
    "level": "unlabelled",
    "teacher": "Daniel",
    "start": "2026-10-28T19:00:00+11:00",
-   "end": "2026-10-28T20:00:00+11:00",
+   "end": "2026-10-28T20:15:00+11:00",
    "raw": "Waving Pop up class with Daniel",
    "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
+  },
+  {
+   "studio": "mn-parramatta",
+   "where": "MN Parramatta",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Rishika",
+   "start": "2026-10-28T19:00:00+11:00",
+   "end": "2026-10-28T20:00:00+11:00",
+   "raw": "Beginner Choreo W Rishika",
+   "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop Foundations (Int)",
+   "level": "intermediate",
+   "teacher": "Amanda",
+   "start": "2026-10-28T19:05:00+11:00",
+   "end": "2026-10-28T20:05:00+11:00",
+   "raw": "Hip Hop Foundations (Intermediate)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Girls Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Chris",
+   "start": "2026-10-28T19:05:00+11:00",
+   "end": "2026-10-28T20:05:00+11:00",
+   "raw": "Girls Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
   },
   {
    "studio": "crossover",
@@ -572,13 +704,46 @@
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Contemporary (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Ashley",
+   "start": "2026-10-28T19:05:00+11:00",
+   "end": "2026-10-28T20:05:00+11:00",
+   "raw": "Contemporary (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Wei Wei",
+   "start": "2026-10-28T19:05:00+11:00",
+   "end": "2026-10-28T20:05:00+11:00",
+   "raw": "Class@XO2S | Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "ix",
+   "where": "IX",
+   "name": "K-pop",
+   "level": "unlabelled",
+   "teacher": "Ashley",
+   "start": "2026-10-28T19:40:00+11:00",
+   "end": "2026-10-28T20:55:00+11:00",
+   "raw": "K-pop",
+   "book": "https://www.ixdancestudio.com"
+  },
+  {
    "studio": "ix",
    "where": "IX",
    "name": "Popping (Beg)",
    "level": "beginner",
    "teacher": "Marco",
    "start": "2026-10-28T19:40:00+11:00",
-   "end": "2026-10-28T21:00:00+11:00",
+   "end": "2026-10-28T20:55:00+11:00",
    "raw": "Popping | Beginners",
    "book": "https://www.ixdancestudio.com"
   },
@@ -618,12 +783,45 @@
   {
    "studio": "crossover",
    "where": "Crossover",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Nana O",
+   "start": "2026-10-29T18:00:00+11:00",
+   "end": "2026-10-29T19:00:00+11:00",
+   "raw": "Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
    "name": "Waacking (Beg)",
    "level": "beginner",
    "teacher": "JP",
    "start": "2026-10-29T18:00:00+11:00",
    "end": "2026-10-29T19:00:00+11:00",
    "raw": "Waacking (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Carmen",
+   "start": "2026-10-29T18:00:00+11:00",
+   "end": "2026-10-29T19:00:00+11:00",
+   "raw": "Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Girls Choreo/Heels (Beg)",
+   "level": "beginner",
+   "teacher": "Joyce",
+   "start": "2026-10-29T18:00:00+11:00",
+   "end": "2026-10-29T19:00:00+11:00",
+   "raw": "Class@XO2S | Girls Choreo/Heels (Beg)",
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
@@ -638,13 +836,24 @@
    "book": "https://2020movementnation.wixsite.com/website-1"
   },
   {
+   "studio": "imi",
+   "where": "IMI · Studio 1",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Janey",
+   "start": "2026-10-29T18:45:00+11:00",
+   "end": "2026-10-29T20:00:00+11:00",
+   "raw": "Beg/Int Choreography | Studio 1",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
+  },
+  {
    "studio": "ix",
    "where": "IX",
    "name": "K-pop (Abs Beg)",
    "level": "abs_beg",
    "teacher": "Winnie",
    "start": "2026-10-29T19:00:00+11:00",
-   "end": "2026-10-29T20:20:00+11:00",
+   "end": "2026-10-29T20:00:00+11:00",
    "raw": "K-pop | Absolute Beginner",
    "book": "https://www.ixdancestudio.com"
   },
@@ -660,6 +869,28 @@
    "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
   },
   {
+   "studio": "mn-parramatta",
+   "where": "MN Parramatta",
+   "name": "Choreography (Beg)",
+   "level": "beginner",
+   "teacher": "Ivy",
+   "start": "2026-10-29T19:00:00+11:00",
+   "end": "2026-10-29T20:00:00+11:00",
+   "raw": "Beginner Choreography W Ivy",
+   "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Kenny",
+   "start": "2026-10-29T19:05:00+11:00",
+   "end": "2026-10-29T20:05:00+11:00",
+   "raw": "Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
    "studio": "crossover",
    "where": "Crossover",
    "name": "Locking (Beg)",
@@ -668,6 +899,17 @@
    "start": "2026-10-29T19:05:00+11:00",
    "end": "2026-10-29T20:05:00+11:00",
    "raw": "Locking (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Girls Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Queenjuh",
+   "start": "2026-10-29T19:05:00+11:00",
+   "end": "2026-10-29T20:05:00+11:00",
+   "raw": "Class@XO2S | Girls Choreo (Beginners)",
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
@@ -688,9 +930,31 @@
    "level": "intermediate",
    "teacher": "Oliver",
    "start": "2026-10-29T20:00:00+11:00",
-   "end": "2026-10-29T21:00:00+11:00",
+   "end": "2026-10-29T21:15:00+11:00",
    "raw": "Intermediate Choreography W Oli",
    "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop Drills (Int)",
+   "level": "intermediate",
+   "teacher": "Daisuke",
+   "start": "2026-10-29T20:15:00+11:00",
+   "end": "2026-10-29T21:15:00+11:00",
+   "raw": "Hip Hop Drills (Intermediate)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop Freestyle (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Kenny",
+   "start": "2026-10-29T20:15:00+11:00",
+   "end": "2026-10-29T21:15:00+11:00",
+   "raw": "Hip Hop Freestyle (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
   },
   {
    "studio": "crossover",
@@ -699,9 +963,20 @@
    "level": "intermediate",
    "teacher": "Keanu",
    "start": "2026-10-29T20:15:00+11:00",
-   "end": "2026-10-29T21:15:00+11:00",
+   "end": "2026-10-29T21:30:00+11:00",
    "raw": "Popping/Boogaloo (Intermediate)",
    "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio B",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Miyu Aikawa",
+   "start": "2026-10-29T20:30:00+11:00",
+   "end": "2026-10-29T21:45:00+11:00",
+   "raw": "Beg/Int Choreography | Studio B",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
   },
   {
    "studio": "crossover",
@@ -726,6 +1001,39 @@
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Sojeong",
+   "start": "2026-10-30T18:00:00+11:00",
+   "end": "2026-10-30T19:00:00+11:00",
+   "raw": "Choreo (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Whyan",
+   "start": "2026-10-30T18:00:00+11:00",
+   "end": "2026-10-30T19:00:00+11:00",
+   "raw": "Class@XO2S | Choreography (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio A",
+   "name": "Choreography (Int/Adv)",
+   "level": "int_adv",
+   "teacher": "Min Bin",
+   "start": "2026-10-30T18:00:00+11:00",
+   "end": "2026-10-30T19:15:00+11:00",
+   "raw": "Int/Adv Choreography | Studio A",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
+  },
+  {
    "studio": "imi",
    "where": "IMI · Studio B",
    "name": "Hip-Hop Foundation (Foundations)",
@@ -735,6 +1043,17 @@
    "end": "2026-10-30T19:15:00+11:00",
    "raw": "Pop Up | Basics | Hip-Hop Foundation | Studio B",
    "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
+  },
+  {
+   "studio": "mn-parramatta",
+   "where": "MN Parramatta",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Tianna",
+   "start": "2026-10-30T18:00:00+11:00",
+   "end": "2026-10-30T19:00:00+11:00",
+   "raw": "Beginner Choreo W Tianna",
+   "book": "https://2020movementnation.wixsite.com/website-1"
   },
   {
    "studio": "mn-hurstville",
@@ -754,9 +1073,53 @@
    "level": "open",
    "teacher": "Tiana",
    "start": "2026-10-30T19:00:00+11:00",
-   "end": "2026-10-30T20:00:00+11:00",
+   "end": "2026-10-30T20:15:00+11:00",
    "raw": "Open Choreography W Tiana",
    "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop Drills (Beg)",
+   "level": "beginner",
+   "teacher": "Chizuru",
+   "start": "2026-10-30T19:05:00+11:00",
+   "end": "2026-10-30T20:05:00+11:00",
+   "raw": "Hip Hop Drills (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Locking (Beg)",
+   "level": "beginner",
+   "teacher": "Kaye",
+   "start": "2026-10-30T19:05:00+11:00",
+   "end": "2026-10-30T20:05:00+11:00",
+   "raw": "Locking (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Choreo (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Hinano",
+   "start": "2026-10-30T19:05:00+11:00",
+   "end": "2026-10-30T20:05:00+11:00",
+   "raw": "Class@XO2S | Choreo (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio A",
+   "name": "Choreography (Int/Adv)",
+   "level": "int_adv",
+   "teacher": "Saori",
+   "start": "2026-10-30T19:15:00+11:00",
+   "end": "2026-10-30T20:30:00+11:00",
+   "raw": "Pop Up | Int/Adv Choreography | Studio A",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
   },
   {
    "studio": "imi",
@@ -776,7 +1139,7 @@
    "level": "abs_beg",
    "teacher": "Cat",
    "start": "2026-10-30T20:00:00+11:00",
-   "end": "2026-10-30T21:20:00+11:00",
+   "end": "2026-10-30T21:00:00+11:00",
    "raw": "K-pop | Absolute Beginner",
    "book": "https://www.ixdancestudio.com"
   },
@@ -790,6 +1153,50 @@
    "end": "2026-10-30T21:15:00+11:00",
    "raw": "Party Groove / Soul (Beginners)",
    "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Popping (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Kevin",
+   "start": "2026-10-30T20:15:00+11:00",
+   "end": "2026-10-30T21:30:00+11:00",
+   "raw": "Popping (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Choreo (Int)",
+   "level": "intermediate",
+   "teacher": "Hinano",
+   "start": "2026-10-30T20:15:00+11:00",
+   "end": "2026-10-30T21:15:00+11:00",
+   "raw": "Class@XO2S | Choreo (Intermediate)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Vogue Femme (Beg)",
+   "level": "beginner",
+   "teacher": "Caleb",
+   "start": "2026-10-30T20:30:00+11:00",
+   "end": "2026-10-30T21:30:00+11:00",
+   "raw": "Class@XO2S | Vogue Femme (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio 1",
+   "name": "Choreography (Int/Adv)",
+   "level": "int_adv",
+   "teacher": "Chelli",
+   "start": "2026-10-30T20:30:00+11:00",
+   "end": "2026-10-30T22:00:00+11:00",
+   "raw": "Pop Up | Int/Adv Choreography | Studio 1",
+   "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"
   },
   {
    "studio": "imi",
@@ -809,9 +1216,20 @@
    "level": "unlabelled",
    "teacher": "Imogen",
    "start": "2026-10-31T12:20:00+11:00",
-   "end": "2026-10-31T13:40:00+11:00",
+   "end": "2026-10-31T13:35:00+11:00",
    "raw": "K-pop",
    "book": "https://www.ixdancestudio.com"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Kat",
+   "start": "2026-10-31T13:00:00+11:00",
+   "end": "2026-10-31T14:00:00+11:00",
+   "raw": "Choreo (Beg)",
+   "book": "https://www.crossoverdance.com/timetable/"
   },
   {
    "studio": "crossover",
@@ -822,6 +1240,17 @@
    "start": "2026-10-31T13:00:00+11:00",
    "end": "2026-10-31T14:00:00+11:00",
    "raw": "Girls Choreo (Absolute Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Girls Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Tab",
+   "start": "2026-10-31T14:00:00+11:00",
+   "end": "2026-10-31T15:00:00+11:00",
+   "raw": "Girls Choreo (Beginners)",
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
@@ -849,12 +1278,78 @@
   {
    "studio": "crossover",
    "where": "Crossover",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Yu-P",
+   "start": "2026-10-31T15:00:00+11:00",
+   "end": "2026-10-31T16:00:00+11:00",
+   "raw": "Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Girls Choreo (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Tab",
+   "start": "2026-10-31T15:00:00+11:00",
+   "end": "2026-10-31T16:00:00+11:00",
+   "raw": "Girls Choreo (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Int)",
+   "level": "intermediate",
+   "teacher": "Yu-P",
+   "start": "2026-10-31T16:00:00+11:00",
+   "end": "2026-10-31T17:00:00+11:00",
+   "raw": "Choreo (Intermediate)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "House Choreo (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Nana",
+   "start": "2026-10-31T17:00:00+11:00",
+   "end": "2026-10-31T18:00:00+11:00",
+   "raw": "House Choreo (Beg-Int)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Yudai",
+   "start": "2026-10-31T17:00:00+11:00",
+   "end": "2026-10-31T18:00:00+11:00",
+   "raw": "Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
    "name": "Popping (Abs Beg)",
    "level": "abs_beg",
    "teacher": "Kevin",
    "start": "2026-11-01T12:00:00+11:00",
    "end": "2026-11-01T13:00:00+11:00",
    "raw": "Popping (Absolute Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Popping (Beg)",
+   "level": "beginner",
+   "teacher": "Keanu",
+   "start": "2026-11-01T13:00:00+11:00",
+   "end": "2026-11-01T14:00:00+11:00",
+   "raw": "Popping (Beginners)",
    "book": "https://www.crossoverdance.com/timetable/"
   },
   {
@@ -877,6 +1372,61 @@
    "start": "2026-11-01T14:00:00+11:00",
    "end": "2026-11-01T15:00:00+11:00",
    "raw": "Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Yu-P",
+   "start": "2026-11-01T15:00:00+11:00",
+   "end": "2026-11-01T16:00:00+11:00",
+   "raw": "Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Girls Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Sylvia",
+   "start": "2026-11-01T15:00:00+11:00",
+   "end": "2026-11-01T16:00:00+11:00",
+   "raw": "Girls Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Koki",
+   "start": "2026-11-01T16:00:00+11:00",
+   "end": "2026-11-01T17:00:00+11:00",
+   "raw": "Hip Hop (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Ice",
+   "start": "2026-11-01T16:00:00+11:00",
+   "end": "2026-11-01T17:00:00+11:00",
+   "raw": "Choreo (Beginners)",
+   "book": "https://www.crossoverdance.com/timetable/"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Sojeong",
+   "start": "2026-11-01T17:00:00+11:00",
+   "end": "2026-11-01T18:00:00+11:00",
+   "raw": "Choreo (Beginners)",
    "book": "https://www.crossoverdance.com/timetable/"
   }
  ]
