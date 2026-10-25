@@ -22,10 +22,14 @@ WIX_BOOKINGS_APP = "13d21c63-b5ec-5912-8397-c3a5ddb27a97"
 
 # id: what the dashboard filters on. label: what it shows.
 STUDIOS = [
+    # "classpass": the studio's ClassPass venue. Classes found there link straight to that class
+    # (classpass.com/schedule/<id>, which opens the ClassPass app); the rest link to the studio page.
     {"id": "imi", "label": "IMI", "kind": "mindbody", "slug": "imi-dance",
-     "address": "11 East St, Lidcombe", "book": "https://www.mindbodyonline.com/explore/locations/imi-dance"},
+     "address": "11 East St, Lidcombe", "book": "https://classpass.com/studios/imi-dance-lidcombe",
+     "classpass": {"venue": 209935}},
     {"id": "crossover", "label": "Crossover", "kind": "mindbody", "slug": "crossover-dance-studio",
-     "address": "22-26 Goulburn St, Sydney", "book": "https://www.crossoverdance.com/timetable/"},
+     "address": "22-26 Goulburn St, Sydney", "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+     "classpass": {"venue": 30476}},
     {"id": "mn-hurstville", "label": "MN Hurstville", "kind": "wix",
      "base": "https://www.movementnationdancestudio.com",
      "address": "38 Humphreys Ln, Hurstville", "book": "https://www.movementnationdancestudio.com/hurstville-bookings"},
@@ -145,6 +149,38 @@ def scrape_wix(studio, start, end):
             return out
 
 
+def _match_key(title, start):
+    """Same class in Mindbody and ClassPass: same start minute and same title (ClassPass mirrors Mindbody)."""
+    return (start.astimezone(SYDNEY).strftime("%Y-%m-%dT%H:%M"), " ".join(title.lower().split()))
+
+
+def link_classpass(studio, classes, start, days):
+    """Point each class at its own ClassPass page where ClassPass lists it. Returns how many matched."""
+    venue = studio["classpass"]["venue"]
+    by_key, by_time = {}, {}
+    for i in range(days):
+        day = (start + timedelta(days=i)).strftime("%Y-%m-%d")
+        j = http_json("https://classpass.com/_api/v3/search/schedules", {"date": day, "venue": [venue]})
+        for s in j.get("schedules", []):
+            st = datetime.fromtimestamp(float(s["starttime"]), SYDNEY)
+            key = _match_key((s.get("class") or {}).get("name", ""), st)
+            by_key[key] = s["id"]
+            by_time.setdefault(key[0], []).append(s["id"])
+    matched = 0
+    for c in classes:
+        key = _match_key(c["raw"], datetime.fromisoformat(c["start"]))
+        sid = by_key.get(key)
+        if sid is None and len(by_time.get(key[0], [])) == 1:
+            sid = by_time[key[0]][0]  # only one ClassPass class at that time: safe to match on time alone
+        if sid is not None:
+            c["book"] = f"https://classpass.com/schedule/{sid}"
+            c["via"] = "classpass"
+            matched += 1
+        else:
+            c["via"] = "classpass-studio"
+    return matched
+
+
 def main():
     now = datetime.now(SYDNEY)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -163,6 +199,14 @@ def main():
             fn = scrape_mindbody if studio["kind"] == "mindbody" else scrape_wix
             got = [c for c in fn(studio, start, end)
                    if start <= datetime.fromisoformat(c["start"]) <= end]
+            if studio.get("classpass"):
+                try:
+                    n = link_classpass(studio, got, start, DAYS_AHEAD + 1)
+                    print(f"{studio['label']}: {n}/{len(got)} classes linked to ClassPass")
+                except Exception as exc:  # ClassPass down: classes still link to the ClassPass studio page
+                    for c in got:
+                        c["via"] = "classpass-studio"
+                    print(f"{studio['label']}: ClassPass lookup failed ({exc})", file=sys.stderr)
             classes += got
             status[studio["id"]] = {"ok": True, "count": len(got), "updated": now.isoformat()}
             print(f"{studio['label']}: {len(got)} classes")

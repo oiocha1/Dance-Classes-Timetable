@@ -63,6 +63,7 @@ main { padding: 4px 16px calc(env(safe-area-inset-bottom) + 40px); max-width: 64
   margin-top: 6px; background: var(--other-bg); color: var(--other); }
 .badge.abs_beg { background: var(--absbeg-bg); color: var(--absbeg); }
 .badge.foundations { background: var(--found-bg); color: var(--found); }
+.via { font-size: 11px; color: var(--muted); margin-left: 8px; }
 .empty { text-align: center; color: var(--muted); padding: 48px 12px; }
 .notice { background: var(--warn-bg); color: var(--warn); border-radius: 10px; padding: 8px 12px; font-size: 13px; margin-top: 12px; }
 dialog { border: 1px solid var(--line); border-radius: 16px; background: var(--card); color: var(--ink);
@@ -213,7 +214,7 @@ function render() {
       <div>
         <div class="name">${esc(c.name)}</div>
         <div class="meta"><span>${esc(c.where)}</span>${c.teacher ? `<span>with ${esc(c.teacher)}</span>` : ""}</div>
-        <span class="badge ${esc(c.level)}">${esc(lvl)}</span>
+        <span class="badge ${esc(c.level)}">${esc(lvl)}</span>${c.via === "classpass" ? `<span class="via">ClassPass ↗</span>` : c.via === "classpass-studio" ? `<span class="via">ClassPass studio ↗</span>` : ""}
       </div></a>`;
   }
   list.innerHTML = html;
