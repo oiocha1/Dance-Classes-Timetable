@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T21:33:11.148559+11:00",
+ "generated": "2026-10-25T21:36:54.953970+11:00",
  "window": {
   "from": "2026-10-25T00:00:00+11:00",
   "to": "2026-11-01T23:59:59+11:00"
@@ -74,29 +74,29 @@
   "imi": {
    "ok": true,
    "count": 16,
-   "updated": "2026-10-25T21:33:11.148559+11:00",
+   "updated": "2026-10-25T21:36:54.953970+11:00",
    "classpass": "failed: HTTP Error 403: Forbidden"
   },
   "crossover": {
    "ok": true,
    "count": 73,
-   "updated": "2026-10-25T21:33:11.148559+11:00",
+   "updated": "2026-10-25T21:36:54.953970+11:00",
    "classpass": "failed: HTTP Error 403: Forbidden"
   },
   "mn-hurstville": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T21:33:11.148559+11:00"
+   "updated": "2026-10-25T21:36:54.953970+11:00"
   },
   "mn-parramatta": {
    "ok": true,
    "count": 11,
-   "updated": "2026-10-25T21:33:11.148559+11:00"
+   "updated": "2026-10-25T21:36:54.953970+11:00"
   },
   "ix": {
    "ok": true,
    "count": 10,
-   "updated": "2026-10-25T21:33:11.148559+11:00"
+   "updated": "2026-10-25T21:36:54.953970+11:00"
   }
  },
  "classes": [
