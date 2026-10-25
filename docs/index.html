@@ -5,21 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Dance">
-<meta name="theme-color" content="#14110f">
+<meta name="theme-color" content="#F6F5EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#252920" media="(prefers-color-scheme: dark)">
 <title>Dance Classes</title>
 <style>
+/* Matcha and oat. Dark mode is the "deep moss" variant. */
 :root {
-  --bg: #f7f4ef; --card: #ffffff; --ink: #1d1a17; --muted: #75695e; --line: #e6dfd5;
-  --accent: #c2410c; --chip: #efe9e0; --chip-on: #1d1a17; --chip-on-ink: #f7f4ef;
-  --absbeg: #15803d; --absbeg-bg: #dcfce7; --found: #7c3aed; --found-bg: #ede9fe;
-  --other: #57534e; --other-bg: #ece7e1; --warn: #b45309; --warn-bg: #fef3c7;
+  --bg: #F6F5EE; --card: #ffffff; --ink: #23261E; --muted: #7A7F6E; --line: #E3E2D6;
+  --accent: #5B7A2E; --chip: #ECEBE1; --chip-on: #4A5A30; --chip-on-ink: #F6F5EE;
+  --absbeg: #465A24; --absbeg-bg: #DCE7C5; --found: #55468A; --found-bg: #E7E1F2;
+  --other: #5E6352; --other-bg: #ECEBE1; --warn: #8A5A0B; --warn-bg: #F6EAC9;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14110f; --card: #1f1b18; --ink: #f2ede6; --muted: #a39686; --line: #2f2925;
-    --accent: #fb923c; --chip: #2a2420; --chip-on: #f2ede6; --chip-on-ink: #14110f;
-    --absbeg: #4ade80; --absbeg-bg: #14301f; --found: #c4b5fd; --found-bg: #2a2146;
-    --other: #d6d3d1; --other-bg: #2f2925; --warn: #fbbf24; --warn-bg: #3a2c0c;
+    --bg: #252920; --card: #30352A; --ink: #F0F2E8; --muted: #AAAF9C; --line: #3E4434;
+    --accent: #C9DAA8; --chip: #383E31; --chip-on: #C9DAA8; --chip-on-ink: #252920;
+    --absbeg: #CFE2A8; --absbeg-bg: #3C4C2C; --found: #D4CBF4; --found-bg: #3A3350;
+    --other: #C9CDBD; --other-bg: #383E31; --warn: #EBD48D; --warn-bg: #4A4128;
   }
 }
 * { box-sizing: border-box; }
@@ -68,7 +70,7 @@ dialog p, dialog li { color: var(--muted); font-size: 14px; }
 dialog input { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid var(--line);
   background: var(--bg); color: var(--ink); font: inherit; font-size: 16px; }
 .row { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
-.primary { background: var(--accent); color: #fff; border: 0; border-radius: 999px; padding: 8px 16px; cursor: pointer; }
+.primary { background: var(--chip-on); color: var(--chip-on-ink); border: 0; border-radius: 999px; padding: 8px 16px; cursor: pointer; }
 .ghost { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; cursor: pointer; }
 a { color: var(--accent); }
 </style>
