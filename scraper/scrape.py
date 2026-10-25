@@ -157,10 +157,22 @@ def _match_key(title, start):
 def link_classpass(studio, classes, start, days):
     """Point each class at its own ClassPass page where ClassPass lists it. Returns how many matched."""
     venue = studio["classpass"]["venue"]
+    # Visit the studio page first (like a browser would) so the API calls carry its cookies.
+    import http.cookiejar
+    jar = http.cookiejar.CookieJar()
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+    browser = {"User-Agent": UA, "Accept-Language": "en-AU,en;q=0.9"}
+    page = urllib.request.Request(studio["book"], headers={**browser, "Accept": "text/html,application/xhtml+xml"})
+    opener.open(page, timeout=30).read()
+    api_headers = {**browser, "Accept": "application/json", "Content-Type": "application/json",
+                   "Origin": "https://classpass.com", "Referer": studio["book"]}
     by_key, by_time = {}, {}
     for i in range(days):
         day = (start + timedelta(days=i)).strftime("%Y-%m-%d")
-        j = http_json("https://classpass.com/_api/v3/search/schedules", {"date": day, "venue": [venue]})
+        req = urllib.request.Request("https://classpass.com/_api/v3/search/schedules", method="POST",
+                                     data=json.dumps({"date": day, "venue": [venue]}).encode(), headers=api_headers)
+        with opener.open(req, timeout=30) as r:
+            j = json.loads(r.read().decode())
         for s in j.get("schedules", []):
             st = datetime.fromtimestamp(float(s["starttime"]), SYDNEY)
             key = _match_key((s.get("class") or {}).get("name", ""), st)
