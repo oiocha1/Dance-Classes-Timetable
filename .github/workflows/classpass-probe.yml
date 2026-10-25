@@ -17,10 +17,10 @@ jobs:
                   b = await p.chromium.launch()
                   pg = await b.new_page(locale="en-AU", timezone_id="Australia/Sydney")
                   r = await pg.goto("https://classpass.com/studios/imi-dance-lidcombe", wait_until="domcontentloaded")
-                  print("page status", r.status, await pg.title())
+                  print(f"::warning::page status {r.status} {await pg.title()}")
                   await pg.wait_for_timeout(3000)
                   out = await pg.evaluate("""async () => { const r = await fetch('/_api/v3/search/schedules',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({date:'2026-10-27',venue:[209935]})}); const t = await r.text(); return [r.status, t.slice(0,300)]; }""")
-                  print("api", out)
+                  print(f"::warning::api {out[0]} {out[1][:150]!r}")
                   await b.close()
           asyncio.run(main())
           PY
