@@ -86,7 +86,7 @@ def make_class(studio, title, start, end, teacher, room=None, xo2s=False):
 
 def scrape_mindbody(studio, start, end):
     url = "https://prod-mkt-gateway.mindbody.io/v1/search/class_times"
-    out, page = [], 1
+    out, page, dropped = [], 1, {}
     while True:
         body = {
             "sort": "start_time",
@@ -105,9 +105,19 @@ def scrape_mindbody(studio, start, end):
         j = http_json(url, body)
         staff = {i["id"]: i["attributes"].get("name", "")
                  for i in j.get("included", []) if i.get("type") == "staff"}
+        locations = {i["id"]: i.get("attributes", {})
+                     for i in j.get("included", []) if i.get("type") == "location"}
         for d in j.get("data", []):
             a = d["attributes"]
             title = a.get("displayName") or ""
+            # Mindbody sometimes returns classes from other businesses' locations (e.g. a pilates
+            # studio). Keep only classes held at this studio's own location.
+            lid = ((d.get("relationships", {}).get("location") or {}).get("data") or {}).get("id")
+            loc = locations.get(lid, {})
+            if loc.get("slug") and loc["slug"] != studio["slug"]:
+                key = f'{loc.get("name") or "?"} ({loc["slug"]})'
+                dropped[key] = dropped.get(key, 0) + 1
+                continue
             s = datetime.fromisoformat(a["startTime"].replace("Z", "+00:00")).astimezone(SYDNEY)
             e = datetime.fromisoformat(a["endTime"].replace("Z", "+00:00")).astimezone(SYDNEY) if a.get("endTime") else None
             sid = (d.get("relationships", {}).get("staff", {}).get("data") or {}).get("id")
@@ -116,6 +126,9 @@ def scrape_mindbody(studio, start, end):
                 out.append(c)
         found = j.get("meta", {}).get("found", 0)
         if page * 100 >= found or not j.get("data"):
+            if dropped:
+                print(f"{studio['label']}: ignored classes from other locations: {dropped}")
+            studio["_dropped"] = dropped
             return out
         page += 1
 
@@ -223,6 +236,8 @@ def main():
                     cp_notes[studio["id"]] = f"failed: {str(exc)[:200]}"
             classes += got
             status[studio["id"]] = {"ok": True, "count": len(got), "updated": now.isoformat()}
+            if studio.get("_dropped"):
+                status[studio["id"]]["ignored_other_locations"] = studio["_dropped"]
             if studio["id"] in cp_notes:
                 status[studio["id"]]["classpass"] = cp_notes[studio["id"]]
             print(f"{studio['label']}: {len(got)} classes")
