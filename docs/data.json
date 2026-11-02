@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-01T09:31:38.642477+11:00",
+ "generated": "2026-11-02T18:38:05.453494+11:00",
  "window": {
-  "from": "2026-11-01T00:00:00+11:00",
-  "to": "2026-11-08T23:59:59+11:00"
+  "from": "2026-11-02T00:00:00+11:00",
+  "to": "2026-11-09T23:59:59+11:00"
  },
  "levels": {
   "abs_beg": {
@@ -73,225 +73,39 @@
  "status": {
   "imi": {
    "ok": true,
-   "count": 27,
-   "updated": "2026-11-01T09:31:38.642477+11:00",
+   "count": 17,
+   "updated": "2026-11-02T18:38:05.453494+11:00",
+   "ignored_other_locations": {
+    "Name (name)": 17
+   },
    "classpass": "failed: HTTP Error 403: Forbidden"
   },
   "crossover": {
    "ok": true,
-   "count": 117,
-   "updated": "2026-11-01T09:31:38.642477+11:00",
+   "count": 98,
+   "updated": "2026-11-02T18:38:05.453494+11:00",
+   "ignored_other_locations": {
+    "Name (name)": 17
+   },
    "classpass": "failed: HTTP Error 403: Forbidden"
   },
   "mn-hurstville": {
    "ok": true,
-   "count": 9,
-   "updated": "2026-11-01T09:31:38.642477+11:00"
+   "count": 11,
+   "updated": "2026-11-02T18:38:05.453494+11:00"
   },
   "mn-parramatta": {
    "ok": true,
-   "count": 11,
-   "updated": "2026-11-01T09:31:38.642477+11:00"
+   "count": 14,
+   "updated": "2026-11-02T18:38:05.453494+11:00"
   },
   "ix": {
    "ok": true,
-   "count": 13,
-   "updated": "2026-11-01T09:31:38.642477+11:00"
+   "count": 14,
+   "updated": "2026-11-02T18:38:05.453494+11:00"
   }
  },
  "classes": [
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Popping (Abs Beg)",
-   "level": "abs_beg",
-   "teacher": "Kevin",
-   "start": "2026-11-01T12:00:00+11:00",
-   "end": "2026-11-01T13:00:00+11:00",
-   "raw": "Popping (Absolute Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Kpop · Queencard - Idle · Encore Trial (Beg)",
-   "level": "beginner",
-   "teacher": "Jaye",
-   "start": "2026-11-01T12:00:00+11:00",
-   "end": "2026-11-01T13:30:00+11:00",
-   "raw": "Kpop | Queencard - Idle (Beg) | Encore Trial",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Kpop · Dumb Dumb x Psycho - Red Velvet · Encore Trial (Beg)",
-   "level": "beginner",
-   "teacher": "Jacqui",
-   "start": "2026-11-01T12:30:00+11:00",
-   "end": "2026-11-01T14:00:00+11:00",
-   "raw": "Kpop | Dumb Dumb x Psycho - Red Velvet (Beg) | Encore Trial",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Popping (Beg)",
-   "level": "beginner",
-   "teacher": "Tripti",
-   "start": "2026-11-01T13:00:00+11:00",
-   "end": "2026-11-01T14:00:00+11:00",
-   "raw": "Popping (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Girls Choreo (Abs Beg)",
-   "level": "abs_beg",
-   "teacher": "Julia",
-   "start": "2026-11-01T14:00:00+11:00",
-   "end": "2026-11-01T15:00:00+11:00",
-   "raw": "Girls Choreo (Absolute Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Kpop · Firestarter - KDA (Beg)",
-   "level": "beginner",
-   "teacher": "Haylie",
-   "start": "2026-11-01T14:00:00+11:00",
-   "end": "2026-11-01T15:00:00+11:00",
-   "raw": "Kpop | Firestarter - KDA (Beg)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Hip Hop (Beg)",
-   "level": "beginner",
-   "teacher": "Yu-P",
-   "start": "2026-11-01T15:00:00+11:00",
-   "end": "2026-11-01T16:00:00+11:00",
-   "raw": "Hip Hop (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Girls Choreo (Beg)",
-   "level": "beginner",
-   "teacher": "Sylvia",
-   "start": "2026-11-01T15:00:00+11:00",
-   "end": "2026-11-01T16:00:00+11:00",
-   "raw": "Girls Choreo (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Hip Hop (Beg)",
-   "level": "beginner",
-   "teacher": "Koki",
-   "start": "2026-11-01T16:00:00+11:00",
-   "end": "2026-11-01T17:00:00+11:00",
-   "raw": "Hip Hop (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Choreo (Beg)",
-   "level": "beginner",
-   "teacher": "Ice",
-   "start": "2026-11-01T16:00:00+11:00",
-   "end": "2026-11-01T17:00:00+11:00",
-   "raw": "Choreo (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Choreo (Beg)",
-   "level": "beginner",
-   "teacher": "Sojeong",
-   "start": "2026-11-01T17:00:00+11:00",
-   "end": "2026-11-01T18:00:00+11:00",
-   "raw": "Choreo (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Kpop · NASA - Ateez (Int) · Encore Audition (Int)",
-   "level": "intermediate",
-   "teacher": "Sylvia",
-   "start": "2026-11-01T17:00:00+11:00",
-   "end": "2026-11-01T18:30:00+11:00",
-   "raw": "Kpop | NASA - Ateez (Int) | Encore Audition",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Hip Hop (Beg)",
-   "level": "beginner",
-   "teacher": "Miku",
-   "start": "2026-11-02T17:00:00+11:00",
-   "end": "2026-11-02T18:00:00+11:00",
-   "raw": "Hip Hop (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Kpop · Drip - Ateez (Beg)",
-   "level": "beginner",
-   "teacher": "Sylvia",
-   "start": "2026-11-02T17:00:00+11:00",
-   "end": "2026-11-02T18:00:00+11:00",
-   "raw": "Kpop | Drip - Ateez (Beg)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI · Studio 1",
-   "name": "Choreography (Beg/Int)",
-   "level": "beg_int",
-   "teacher": "Ivy",
-   "start": "2026-11-02T17:45:00+11:00",
-   "end": "2026-11-02T19:00:00+11:00",
-   "raw": "Beg/Int Choreography | Studio 1",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Hip Hop (Beg/Int)",
-   "level": "beg_int",
-   "teacher": "Miku",
-   "start": "2026-11-02T18:00:00+11:00",
-   "end": "2026-11-02T19:00:00+11:00",
-   "raw": "Hip Hop (Beginner-Intermediate)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
   {
    "studio": "crossover",
    "where": "Crossover",
@@ -306,18 +120,6 @@
   },
   {
    "studio": "crossover",
-   "where": "Crossover",
-   "name": "Kpop · Drama - Aespa · Encore Audition (Beg/Int)",
-   "level": "beg_int",
-   "teacher": "Jaye",
-   "start": "2026-11-02T18:00:00+11:00",
-   "end": "2026-11-02T19:30:00+11:00",
-   "raw": "Kpop | Drama - Aespa (Beg-Int) | Encore Audition",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
    "where": "Crossover XO2S",
    "name": "Popping (Abs Beg)",
    "level": "abs_beg",
@@ -325,18 +127,6 @@
    "start": "2026-11-02T18:00:00+11:00",
    "end": "2026-11-02T19:00:00+11:00",
    "raw": "Class@XO2S | Popping (Absolute Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover XO2S",
-   "name": "Hip Hop Foundations (Beg)",
-   "level": "beginner",
-   "teacher": "Amanda",
-   "start": "2026-11-02T18:00:00+11:00",
-   "end": "2026-11-02T19:00:00+11:00",
-   "raw": "Class@XO2S | Hip Hop Foundations (Beginners)",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
   },
@@ -410,18 +200,6 @@
    "via": "classpass-studio"
   },
   {
-   "studio": "crossover",
-   "where": "Crossover XO2S",
-   "name": "Contemporary (Beg)",
-   "level": "beginner",
-   "teacher": "Penny",
-   "start": "2026-11-02T19:05:00+11:00",
-   "end": "2026-11-02T20:05:00+11:00",
-   "raw": "Class@XO2S | Contemporary (Beginners)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
    "studio": "mn-parramatta",
    "where": "Movement Nation Parra",
    "name": "Choreography (Beg)",
@@ -443,17 +221,6 @@
    "raw": "Girls Choreo w Sylvia (Beg) | Encore Trial",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
-  },
-  {
-   "studio": "ix",
-   "where": "IX",
-   "name": "Hip Hop (Beg)",
-   "level": "beginner",
-   "teacher": "Winnie",
-   "start": "2026-11-02T20:00:00+11:00",
-   "end": "2026-11-02T21:15:00+11:00",
-   "raw": "Hip Hop | Beginners",
-   "book": "https://www.ixdancestudio.com"
   },
   {
    "studio": "crossover",
@@ -489,54 +256,6 @@
    "end": "2026-11-02T21:15:00+11:00",
    "raw": "Hip Hop Rhythm Training (Beginner-Intermediate)",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Chynna Williams",
-   "start": "2026-11-03T00:30:00+11:00",
-   "end": "2026-11-03T01:15:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Chynna Williams",
-   "start": "2026-11-03T00:30:00+11:00",
-   "end": "2026-11-03T01:15:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Fast Flow Yoga",
-   "level": "unlabelled",
-   "teacher": "Angela Newman",
-   "start": "2026-11-03T01:30:00+11:00",
-   "end": "2026-11-03T02:15:00+11:00",
-   "raw": "Fast Flow Yoga",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Fast Flow Yoga",
-   "level": "unlabelled",
-   "teacher": "Angela Newman",
-   "start": "2026-11-03T01:30:00+11:00",
-   "end": "2026-11-03T02:15:00+11:00",
-   "raw": "Fast Flow Yoga",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
    "via": "classpass-studio"
   },
   {
@@ -801,54 +520,6 @@
   {
    "studio": "crossover",
    "where": "Crossover",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-03T21:30:00+11:00",
-   "end": "2026-11-03T22:15:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-03T21:30:00+11:00",
-   "end": "2026-11-03T22:15:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-04T10:00:00+11:00",
-   "end": "2026-11-04T10:45:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-04T10:00:00+11:00",
-   "end": "2026-11-04T10:45:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
    "name": "Hip Hop (Abs Beg)",
    "level": "abs_beg",
    "teacher": "Miku",
@@ -897,12 +568,12 @@
   {
    "studio": "crossover",
    "where": "Crossover",
-   "name": "Kpop · View - Shinee (Beg)",
+   "name": "Kpop · Love Scenario - Ikon · ENCORE Trial Class (Beg)",
    "level": "beginner",
    "teacher": "Jaye",
    "start": "2026-11-04T18:00:00+11:00",
    "end": "2026-11-04T19:00:00+11:00",
-   "raw": "Kpop | View - Shinee (Beg)",
+   "raw": "Kpop | Love Scenario - Ikon (Beg) | ENCORE Trial Class",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
   },
@@ -1117,78 +788,6 @@
   {
    "studio": "crossover",
    "where": "Crossover",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-05T01:30:00+11:00",
-   "end": "2026-11-05T02:15:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-05T01:30:00+11:00",
-   "end": "2026-11-05T02:15:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Level Pilates (Open)",
-   "level": "open",
-   "teacher": "Chynna Williams",
-   "start": "2026-11-05T09:15:00+11:00",
-   "end": "2026-11-05T10:00:00+11:00",
-   "raw": "Open Level Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Level Pilates (Open)",
-   "level": "open",
-   "teacher": "Chynna Williams",
-   "start": "2026-11-05T09:15:00+11:00",
-   "end": "2026-11-05T10:00:00+11:00",
-   "raw": "Open Level Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-05T10:15:00+11:00",
-   "end": "2026-11-05T11:00:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-05T10:15:00+11:00",
-   "end": "2026-11-05T11:00:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
    "name": "Hip Hop (Abs Beg)",
    "level": "abs_beg",
    "teacher": "Kenny",
@@ -1249,14 +848,25 @@
   {
    "studio": "crossover",
    "where": "Crossover XO2S",
-   "name": "Kpop · Kissing You - SNSD · Encore Trial (Beg)",
+   "name": "Kpop · Golden - Huntrix · Encore Trial (Beg)",
    "level": "beginner",
    "teacher": "Jaye",
    "start": "2026-11-05T18:00:00+11:00",
    "end": "2026-11-05T19:30:00+11:00",
-   "raw": "Class@XO2S | Kpop | Kissing You - SNSD (Beg) | Encore Trial",
+   "raw": "Class@XO2S | Kpop | Golden - Huntrix (Beg) | Encore Trial",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
+  },
+  {
+   "studio": "mn-hurstville",
+   "where": "Movement Nation Hursi",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Koki",
+   "start": "2026-11-05T18:00:00+11:00",
+   "end": "2026-11-05T19:00:00+11:00",
+   "raw": "Beginner Hip Hop W Koki",
+   "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
   },
   {
    "studio": "mn-parramatta",
@@ -1293,17 +903,6 @@
    "book": "https://www.ixdancestudio.com"
   },
   {
-   "studio": "mn-hurstville",
-   "where": "Movement Nation Hursi",
-   "name": "Hip Hop (Beg)",
-   "level": "beginner",
-   "teacher": "Yudai",
-   "start": "2026-11-05T19:00:00+11:00",
-   "end": "2026-11-05T20:00:00+11:00",
-   "raw": "Beginner Hip Hop W Yudai",
-   "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
-  },
-  {
    "studio": "mn-parramatta",
    "where": "Movement Nation Parra",
    "name": "Choreography (Beg)",
@@ -1312,6 +911,17 @@
    "start": "2026-11-05T19:00:00+11:00",
    "end": "2026-11-05T20:00:00+11:00",
    "raw": "Beginner Choreography W Ivy",
+   "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "mn-parramatta",
+   "where": "Movement Nation Parra",
+   "name": "POP UP Intermediate Choreography (Int)",
+   "level": "intermediate",
+   "teacher": "Keena",
+   "start": "2026-11-05T19:00:00+11:00",
+   "end": "2026-11-05T20:15:00+11:00",
+   "raw": "POP UP Intermediate Choreography W Keena",
    "book": "https://2020movementnation.wixsite.com/website-1"
   },
   {
@@ -1456,78 +1066,6 @@
   },
   {
    "studio": "crossover",
-   "where": "Crossover",
-   "name": "Express Mat Pilates",
-   "level": "unlabelled",
-   "teacher": "Angela Newman",
-   "start": "2026-11-06T04:00:00+11:00",
-   "end": "2026-11-06T04:30:00+11:00",
-   "raw": "Express Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Express Mat Pilates",
-   "level": "unlabelled",
-   "teacher": "Angela Newman",
-   "start": "2026-11-06T04:00:00+11:00",
-   "end": "2026-11-06T04:30:00+11:00",
-   "raw": "Express Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-06T10:00:00+11:00",
-   "end": "2026-11-06T10:45:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Mat Pilates (Beg)",
-   "level": "beginner",
-   "teacher": "Angela Newman",
-   "start": "2026-11-06T10:00:00+11:00",
-   "end": "2026-11-06T10:45:00+11:00",
-   "raw": "Beginner Mat Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
-   "name": "Slow Flow Yoga",
-   "level": "unlabelled",
-   "teacher": "Angela Newman",
-   "start": "2026-11-06T11:00:00+11:00",
-   "end": "2026-11-06T11:45:00+11:00",
-   "raw": "Slow Flow Yoga",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Slow Flow Yoga",
-   "level": "unlabelled",
-   "teacher": "Angela Newman",
-   "start": "2026-11-06T11:00:00+11:00",
-   "end": "2026-11-06T11:45:00+11:00",
-   "raw": "Slow Flow Yoga",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
    "where": "Crossover XO2S",
    "name": "Choreography (Abs Beg)",
    "level": "abs_beg",
@@ -1657,12 +1195,12 @@
   {
    "studio": "crossover",
    "where": "Crossover XO2S",
-   "name": "Kpop · Heartshaker - Twice · Encore Audition (Beg)",
-   "level": "beginner",
+   "name": "Kpop · Heartshaker - Twice · Encore Audition (Beg/Int)",
+   "level": "beg_int",
    "teacher": "Jaye",
    "start": "2026-11-06T19:00:00+11:00",
    "end": "2026-11-06T20:30:00+11:00",
-   "raw": "Class@XO2S | Kpop | Heartshaker - Twice (Beg) | Encore Audition",
+   "raw": "Class@XO2S | Kpop | Heartshaker - Twice (Beg-Int) | Encore Audition",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
   },
@@ -1860,7 +1398,7 @@
    "where": "Crossover",
    "name": "Choreo (Beg)",
    "level": "beginner",
-   "teacher": "Kat",
+   "teacher": "To Be Confirmed",
    "start": "2026-11-07T13:00:00+11:00",
    "end": "2026-11-07T14:00:00+11:00",
    "raw": "Choreo (Beg)",
@@ -1896,7 +1434,7 @@
    "where": "Crossover",
    "name": "Hip Hop (Abs Beg)",
    "level": "abs_beg",
-   "teacher": "Kat",
+   "teacher": "Blooding",
    "start": "2026-11-07T14:00:00+11:00",
    "end": "2026-11-07T15:00:00+11:00",
    "raw": "Hip Hop (Absolute Beginners)",
@@ -1906,12 +1444,12 @@
   {
    "studio": "crossover",
    "where": "Crossover XO2S",
-   "name": "Choreo w Miku · Encore INTENSIVE COURSE Audition · Course runs Sat 12-2pm (Beg/Int)",
-   "level": "beg_int",
+   "name": "Choreo w Miku (Int) · Encore INTENSIVE COURSE Audition · Course runs Sat 12-2pm (Int)",
+   "level": "intermediate",
    "teacher": "Miku",
    "start": "2026-11-07T14:30:00+11:00",
    "end": "2026-11-07T16:00:00+11:00",
-   "raw": "Class@XO2S | Choreo w Miku (Beg-Int) | Encore INTENSIVE COURSE Audition | Course runs Sat 12-2pm",
+   "raw": "Class@XO2S | Choreo w Miku (Int) | Encore INTENSIVE COURSE Audition | Course runs Sat 12-2pm",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
   },
@@ -2004,7 +1542,7 @@
    "where": "Crossover",
    "name": "Hip Hop (Beg)",
    "level": "beginner",
-   "teacher": "Yudai",
+   "teacher": "To Be Confirmed",
    "start": "2026-11-07T17:00:00+11:00",
    "end": "2026-11-07T18:00:00+11:00",
    "raw": "Hip Hop (Beginners)",
@@ -2038,36 +1576,24 @@
   {
    "studio": "crossover",
    "where": "Crossover",
-   "name": "Level Pilates (Open)",
-   "level": "open",
-   "teacher": "Chynna Williams",
-   "start": "2026-11-08T01:00:00+11:00",
-   "end": "2026-11-08T01:45:00+11:00",
-   "raw": "Open Level Pilates",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "imi",
-   "where": "IMI",
-   "name": "Level Pilates (Open)",
-   "level": "open",
-   "teacher": "Chynna Williams",
-   "start": "2026-11-08T01:00:00+11:00",
-   "end": "2026-11-08T01:45:00+11:00",
-   "raw": "Open Level Pilates",
-   "book": "https://classpass.com/studios/imi-dance-lidcombe",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
    "name": "Popping (Abs Beg)",
    "level": "abs_beg",
    "teacher": "Kevin",
    "start": "2026-11-08T12:00:00+11:00",
    "end": "2026-11-08T13:00:00+11:00",
    "raw": "Popping (Absolute Beginners)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Kpop · Dumb Dumb x Psycho - Red Velvet · Encore Trial (Beg)",
+   "level": "beginner",
+   "teacher": "Jacqui",
+   "start": "2026-11-08T12:30:00+11:00",
+   "end": "2026-11-08T14:00:00+11:00",
+   "raw": "Kpop | Dumb Dumb x Psycho - Red Velvet (Beg) | Encore Trial",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
   },
@@ -2134,18 +1660,6 @@
   {
    "studio": "crossover",
    "where": "Crossover",
-   "name": "Kpop · Hooligan - BTS (Beg)",
-   "level": "beginner",
-   "teacher": "Jaye",
-   "start": "2026-11-08T15:00:00+11:00",
-   "end": "2026-11-08T16:00:00+11:00",
-   "raw": "Kpop | Hooligan - BTS (Beg)",
-   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
-   "via": "classpass-studio"
-  },
-  {
-   "studio": "crossover",
-   "where": "Crossover",
    "name": "Choreo (Beg)",
    "level": "beginner",
    "teacher": "Ice",
@@ -2188,6 +1702,216 @@
    "start": "2026-11-08T17:00:00+11:00",
    "end": "2026-11-08T18:30:00+11:00",
    "raw": "Hip Hop w Koki (Beg-Int) | Encore Trial",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Miku",
+   "start": "2026-11-09T17:00:00+11:00",
+   "end": "2026-11-09T18:00:00+11:00",
+   "raw": "Hip Hop (Beginners)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio 1",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Ivy",
+   "start": "2026-11-09T17:45:00+11:00",
+   "end": "2026-11-09T19:00:00+11:00",
+   "raw": "Beg/Int Choreography | Studio 1",
+   "book": "https://classpass.com/studios/imi-dance-lidcombe",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Miku",
+   "start": "2026-11-09T18:00:00+11:00",
+   "end": "2026-11-09T19:00:00+11:00",
+   "raw": "Hip Hop (Beginner-Intermediate)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Popping (Abs Beg)",
+   "level": "abs_beg",
+   "teacher": "Mina",
+   "start": "2026-11-09T18:00:00+11:00",
+   "end": "2026-11-09T19:00:00+11:00",
+   "raw": "Class@XO2S | Popping (Absolute Beginners)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Hip Hop Foundations (Beg)",
+   "level": "beginner",
+   "teacher": "Amanda",
+   "start": "2026-11-09T18:00:00+11:00",
+   "end": "2026-11-09T19:00:00+11:00",
+   "raw": "Class@XO2S | Hip Hop Foundations (Beginners)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "mn-hurstville",
+   "where": "Movement Nation Hursi",
+   "name": "Kpop",
+   "level": "unlabelled",
+   "teacher": "Sam",
+   "start": "2026-11-09T18:00:00+11:00",
+   "end": "2026-11-09T19:00:00+11:00",
+   "raw": "Kpop W Sam",
+   "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
+  },
+  {
+   "studio": "mn-hurstville",
+   "where": "Movement Nation Hursi",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Hu Jeffery",
+   "start": "2026-11-09T18:00:00+11:00",
+   "end": "2026-11-09T19:00:00+11:00",
+   "raw": "Beginner Hip Hop W Jeff",
+   "book": "https://www.movementnationdancestudio.com/hurstville-bookings"
+  },
+  {
+   "studio": "mn-parramatta",
+   "where": "Movement Nation Parra",
+   "name": "Choreography (Int)",
+   "level": "intermediate",
+   "teacher": "Tommy",
+   "start": "2026-11-09T18:00:00+11:00",
+   "end": "2026-11-09T19:15:00+11:00",
+   "raw": "Intermediate Choreography W Tommy",
+   "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop (Int)",
+   "level": "intermediate",
+   "teacher": "Chizuru",
+   "start": "2026-11-09T19:00:00+11:00",
+   "end": "2026-11-09T20:15:00+11:00",
+   "raw": "Hip Hop (Intermediate)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "imi",
+   "where": "IMI · Studio 1",
+   "name": "Choreography (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Ona",
+   "start": "2026-11-09T19:00:00+11:00",
+   "end": "2026-11-09T20:15:00+11:00",
+   "raw": "Pop Up | Beg/Int Choreography | Studio 1",
+   "book": "https://classpass.com/studios/imi-dance-lidcombe",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Girls Choreo (Beg)",
+   "level": "beginner",
+   "teacher": "Meals",
+   "start": "2026-11-09T19:05:00+11:00",
+   "end": "2026-11-09T20:05:00+11:00",
+   "raw": "Girls Choreo (Beginners)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Contemporary (Beg)",
+   "level": "beginner",
+   "teacher": "Penny",
+   "start": "2026-11-09T19:05:00+11:00",
+   "end": "2026-11-09T20:05:00+11:00",
+   "raw": "Class@XO2S | Contemporary (Beginners)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover XO2S",
+   "name": "Choreo w Carmen x Kenny · Encore Trial (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Carmen x Kenny",
+   "start": "2026-11-09T19:05:00+11:00",
+   "end": "2026-11-09T20:30:00+11:00",
+   "raw": "Class@XO2S | Choreo w Carmen x Kenny (Beg-Int) | Encore Trial",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "mn-parramatta",
+   "where": "Movement Nation Parra",
+   "name": "Choreography (Beg)",
+   "level": "beginner",
+   "teacher": "Pacient",
+   "start": "2026-11-09T19:15:00+11:00",
+   "end": "2026-11-09T20:15:00+11:00",
+   "raw": "Beginner Choreography W Pacient",
+   "book": "https://2020movementnation.wixsite.com/website-1"
+  },
+  {
+   "studio": "ix",
+   "where": "IX",
+   "name": "K-pop",
+   "level": "unlabelled",
+   "teacher": "Jenny",
+   "start": "2026-11-09T20:00:00+11:00",
+   "end": "2026-11-09T21:15:00+11:00",
+   "raw": "K-pop",
+   "book": "https://www.ixdancestudio.com"
+  },
+  {
+   "studio": "ix",
+   "where": "IX",
+   "name": "Hip Hop (Beg)",
+   "level": "beginner",
+   "teacher": "Winnie",
+   "start": "2026-11-09T20:00:00+11:00",
+   "end": "2026-11-09T21:15:00+11:00",
+   "raw": "Hip Hop | Beginners",
+   "book": "https://www.ixdancestudio.com"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Choreo (Int)",
+   "level": "intermediate",
+   "teacher": "Jeremy",
+   "start": "2026-11-09T20:15:00+11:00",
+   "end": "2026-11-09T21:15:00+11:00",
+   "raw": "Choreo (Intermediate)",
+   "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
+   "via": "classpass-studio"
+  },
+  {
+   "studio": "crossover",
+   "where": "Crossover",
+   "name": "Hip Hop Rhythm Training (Beg/Int)",
+   "level": "beg_int",
+   "teacher": "Jumpei",
+   "start": "2026-11-09T20:15:00+11:00",
+   "end": "2026-11-09T21:15:00+11:00",
+   "raw": "Hip Hop Rhythm Training (Beginner-Intermediate)",
    "book": "https://classpass.com/studios/crossover-dance-studio-sydney",
    "via": "classpass-studio"
   }
